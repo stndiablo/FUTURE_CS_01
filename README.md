@@ -54,8 +54,8 @@ Login as an authorized user without knowing the correct password.
 - Used Burp Suite to intercept login POST request.
 - Modified the request to bypass validation logic.
 - Successfully logged in with:
-  - **Username**: `admin`
-  - **Password**: `password`
+  - **Username**: `'`
+  - **Password**: `anything`
 
 ### 📸 Screenshots:
 - `screenshots/auth_bypass_dvwa.png`
